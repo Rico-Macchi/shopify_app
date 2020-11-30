@@ -1,4 +1,4 @@
-Shopify App
+Shopify App (Changed)
 ===========
 [![Version][gem]][gem_url] [![Build Status](https://travis-ci.org/Shopify/shopify_app.png)](https://travis-ci.org/Shopify/shopify_app)
 
@@ -124,7 +124,7 @@ $ rails generate shopify_app:home_controller
 This generator creates an example home controller and view which fetches and displays products using the Shopify API.
 
 Options include:
-* __[beta]__ `with-session-token`: This flag generates an unauthenticated home_controller and a protected sample products_controller. It also creates a home view that leverages a session token to fetch products from your products_controller. Use this flag if you plan to build a single-page application or to secure your app using JWT session tokens (e.g. `--with-session-token` or `--with-session-token true`). 
+* __[beta]__ `with-session-token`: This flag generates an unauthenticated home_controller and a protected sample products_controller. It also creates a home view that leverages a session token to fetch products from your products_controller. Use this flag if you plan to build a single-page application or to secure your app using JWT session tokens (e.g. `--with-session-token` or `--with-session-token true`).
 
 ### Products Controller Generator
 
